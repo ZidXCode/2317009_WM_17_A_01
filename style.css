@@ -88,3 +88,37 @@
     display: inline;
     margin-left: 15px;
 }
+
+@media(max-width:980px){
+
+    .box{
+        display: flex;
+        position: absolute;
+        left: 15%;
+        margin-top: 45%;
+        height: 40%;
+        width: 70%;
+        box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 0.365);
+        border-radius: 8px;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .last-tabs{
+        display: flex;
+        position: fixed;
+        bottom: 5px;
+        list-style: none;
+        font-size: 13px;
+        justify-content: center;
+    }
+
+    .title-signin{
+        font-size: 60px;
+    }
+
+    .para{
+        font-size: 30px ;
+    }
+}
